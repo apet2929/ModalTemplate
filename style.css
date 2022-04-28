@@ -10,12 +10,12 @@
 .wrapper {
   display: flex;
   width: 80%;
-  min-height: 80%;
-  /* height: 80%; */
+  height: 80%;
   /* height: fit-content; */
   background-color: #b8cbcc;
   flex-wrap: wrap;
   justify-content: space-around;
+  border-radius: 12px;
 }
 
 .wrapper > * {
@@ -46,7 +46,7 @@ form {
   justify-content: center;
   flex-wrap: wrap;
   /* flex-direction: column; */
-  align-content: space-between;
+  align-content: center;
 }
 
 .questionContainer {
@@ -58,8 +58,9 @@ form {
   margin-bottom: 0;
 
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
+  
 }
 
 .question {
